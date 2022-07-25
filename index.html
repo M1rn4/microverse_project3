@@ -2,27 +2,133 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>¡Hello developers!</h1>
-    <h2>hello</h2>
+    <div id="pages">
+      <header>
+        <div>
+          <figure>
+            <img height="40" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img" alt="imag">
 
-    <!--
+          </figure>
+  
+        </div>
+        <nav id="nav-bar">
+          <ul id="listas" >
+            <lu><a class="nav-link" href="#features">features</a></lu>
+            <lu><a class="nav-link" href="#how-it-works">How it works</a></lu>
+            <lu><a class="nav-link" href="#pricing">Pricing</a></lu>
+          </ul>
+        </nav>
 
-    Hello Camper!
+      </header><br>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+      <div id="conteiner">
+        <section id="mail" class="mb-3">
+          <h2 class="mb-3">Handcrafted, home-made masterpieces
+          </h2>
 
-    - The freeCodeCamp Team
+          <form action="https://www.freecodecamp.com/email-submit" >
+            <input class="form-control mb-3" type="email" id="email" placeholder="Enter your email" required>
+            <input type="submit" value="Get Started" class="btn">
+          </form><br>
+        </section>
+        
+        <div class="conteiner">
+          <section id="features" class="features">
+            <div class="grid">
+              <h2>Premium Materials</h2>
+              <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+              
+            </div><br>
 
-    -->
+            <div class="grid">
+              <h2>Fast Shipping</h2>
+              <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+              
+            </div><br>
+            <div class="grid">
+              <h2>Quality Assurance</h2>
+              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+              
+            </div><br>
+          </section>
+          <section id="how-it-works" class="how-it-works">
+            <div id="divi">
+              <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+              allowfullscreen
+              frameborder="0" 
+              id="video"
+              height="215"
+              
+              
+              ></iframe>
+            </div>
+           
+
+
+          </section><br>
+
+          <section id="pricing" class="pricing">
+            <div class="square">
+              <div class="name">TENOR TROMBONE</div>
+              <h2>$600</h2>
+              <ul>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+              </ul>
+              <button class="btn">SELECT</button>
+            </div>
+
+            <div class="square">
+              <div class="name">BASS TROMBONE</div>
+              <h2>$900</h2>
+              <ul>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+              </ul>
+              <button class="btn">SELECT</button>
+            </div>
+            <div class="square">
+            <div class="name">VALVE TROMBONE</div>
+            <h2>$1200</h2>
+            <ul>
+              <li>Plays similar to a Trumpet</li>
+              <li>Great for Jazz Bands</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+            <button class="btn">SELECT</button>
+
+            </div>             
+            
+          </section><br>
+   
+        </div>
+
+      </div>
+
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+      </footer>
+
+    </div>
+
+
+
     <script  src="js/index.js"></script>
   </body>
 </html>
